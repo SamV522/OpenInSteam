@@ -1,16 +1,26 @@
 {
     "name": "Open in Steam",
     "description": "Open links in steam!",
-    "version": "1.0",
+    "version": "1.1",
     "manifest_version": 3,
     "permissions": [
         "contextMenus",
+        "storage",
+        "declarativeContent",
         "tabs"
     ],
     "icons": {
-        "16": "icon-bitty.png"
+        "16": "icons/icon-bitty.png"
     },
     "background": {
-        "service_worker": "background.js"
-    }
+        "service_worker": "scripts/background.js"
+    },
+    "action": {
+        "browser_style": true,
+        "default_icon": {
+            "64": "icons/icon-small.png"
+        },
+        "default_title": "Open in Steam"
+    },
+    "options_page": "pages/options.html"
 }

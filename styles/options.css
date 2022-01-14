@@ -1,0 +1,36 @@
+body {
+    background-color: rgb(43, 43, 43);
+    color: rgb(255, 255, 255);
+    font-family: 'Roboto';
+}
+
+.Wrapper {
+    width: 50vw;
+    margin: auto;
+    padding-bottom:30px;
+    background-color: gray;
+    display: flex;
+    align-content: center;
+    align-items:center;
+    flex-flow:column wrap;
+    gap: 5px;
+}
+
+.Header {
+    text-decoration: underline solid rgb(107, 107, 107);
+    text-underline-offset: 2px;
+}
+
+.Options {
+    padding: 20px 0px 20px 0px;
+}
+
+.Controls {
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+button {
+    min-width:10em;
+}

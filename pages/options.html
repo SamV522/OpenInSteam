@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Open in Steam Options</title>
+        <link rel="stylesheet" href="../styles/options.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="Wrapper">
+            <div class="Header">
+                <h1>Open in Steam Options</h1>
+            </div>
+            <div class="Options">
+                <div class="option">
+                    <input id="CloseTabAfterAction" type="checkbox" name="CloseTabAfterAction">
+                    <label for="CloseTabAfterAction">Close Tab after opening in Steam from Action Button</label>
+                </div>
+                <div class="option">
+                    <input id="CloseTabAfterLink" type="checkbox" name="CloseTabAfterLink">
+                    <label for="CloseTabAfterLink">Close Tab after opening in Steam from Right Click Context Menu</label>
+                </div>
+            </div>
+            <div id="Status"></div>
+            <div class="Controls">
+                <div class="control">
+                    <button id="Save">Save</button>
+                </div>
+                <div class="control">
+                    <button id="Cancel">Cancel</button>
+                </div>
+            </div>
+        </div>
+        <script src="../scripts/options.js"></script>
+    </body>
+</html>

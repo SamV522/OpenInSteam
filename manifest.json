@@ -1,0 +1,19 @@
+{
+    "name": "Open in Steam",
+    "description": "Open links in steam!",
+    "version": "1.0",
+    "manifest_version": 3,
+    "permissions": [
+        "contextMenus",
+        "tabs"
+    ],
+    "host_permissions": [
+        "*://*/*"
+      ],
+    "icons": {
+        "16": "icon-bitty.png"
+    },
+    "background": {
+        "service_worker": "background.js"
+    }
+}

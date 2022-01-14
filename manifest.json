@@ -7,9 +7,6 @@
         "contextMenus",
         "tabs"
     ],
-    "host_permissions": [
-        "*://*/*"
-      ],
     "icons": {
         "16": "icon-bitty.png"
     },

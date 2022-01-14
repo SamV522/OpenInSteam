@@ -30,5 +30,4 @@ chrome.contextMenus.onClicked.addListener(
     {
         openSteamUrl(info.linkUrl);
     }
-
 )
